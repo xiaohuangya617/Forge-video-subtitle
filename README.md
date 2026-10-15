@@ -6,7 +6,7 @@ Windows x64 免安装字幕生成与翻译工具。程序可以从本地视频�
 
 ## 源码
 
-当前仓库同时提供源码快照，位于 [`src/factory`](src/factory)。其中包含 Electron 界面、字幕队列、识别与翻译流程、Python 识别脚本、规则文件和构建脚本，GitHub 可以据此统计 JavaScript 与 Python 语言。
+当前仓库同时提供源码快照，位于 [`src/factory`](src/factory)。其中包含 Electron 界面、字幕队列、识别与翻译流程、Python 识别脚本、规则文件和构建脚本。
 
 源码快照来自本地开发工程的 `4.1.9` 版本基线；可下载的 Windows 二进制为 `4.1.92` 发布包。两者保留在同一仓库，但源码快照不承诺无需补齐本地模型、运行库和构建环境即可直接复现该二进制。模型、内置 Python runtime、第三方依赖和完整构建目录仍只随 Release 运行包提供。
 
