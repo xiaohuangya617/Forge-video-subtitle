@@ -4,6 +4,14 @@ Windows x64 免安装字幕生成与翻译工具。程序可以从本地视频�
 
 **[下载 Windows 完整版 ZIP（约 1.81 GiB）](https://github.com/xiaohuangya617/Forge-video-subtitle/releases/download/v4.1.92/smart-subtitle-factory-v4.1.92-windows-x64.zip)**
 
+## 源码
+
+当前仓库同时提供源码快照，位于 [`src/factory`](src/factory)。其中包含 Electron 界面、字幕队列、识别与翻译流程、Python 识别脚本、规则文件和构建脚本，GitHub 可以据此统计 JavaScript 与 Python 语言。
+
+源码快照来自本地开发工程的 `4.1.9` 版本基线；可下载的 Windows 二进制为 `4.1.92` 发布包。两者保留在同一仓库，但源码快照不承诺无需补齐本地模型、运行库和构建环境即可直接复现该二进制。模型、内置 Python runtime、第三方依赖和完整构建目录仍只随 Release 运行包提供。
+
+源码目录中的 `qa` 测试产物、缓存、模型、个人路径和本机运行库没有上传。
+
 ## 小白用户：下载即用
 
 这是一个完整运行目录，不是单文件程序。
@@ -116,7 +124,7 @@ Windows x64 免安装字幕生成与翻译工具。程序可以从本地视频�
 
 ## 许可说明
 
-作者原创代码按 [MIT License](PROJECT-LICENSE.md) 发布。当前目录的根目录 `LICENSE` 是 Electron 许可文本，不能覆盖其他第三方组件。`THIRD_PARTY_NOTICES.md` 和 `licenses/` 中列出的第三方组件、模型和运行库必须分别遵守各自许可证。
+作者原创代码按 [MIT License](LICENSE) 发布。Release 运行包中的根目录 `LICENSE` 是随包保留的 Electron 许可文本，仓库根目录 `LICENSE` 说明作者原创代码的 MIT 条款；两者不能覆盖其他第三方组件。`THIRD_PARTY_NOTICES.md` 和 `licenses/` 中列出的第三方组件、模型和运行库必须分别遵守各自许可证。
 
 MIT 许可只适用于作者原创代码，不适用于 Electron、Python、Whisper、Hy-MT2、PyAV、llama.cpp 或其他第三方组件。使用或再分发完整目录时，还必须遵守各组件和模型的原始许可证，以及云端服务商的使用规则。
 
