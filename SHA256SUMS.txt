@@ -2,3 +2,8 @@ Release asset: smart-subtitle-factory-v4.1.92-windows-x64.zip
 Version: 4.1.92
 Size: 1947967406 bytes
 SHA-256: 0768D1746B8C0A1CC83E1688BE15F6C73C61A06EDD34E8A3B159E0D654B0ACCF
+
+Release asset: smart-subtitle-factory-v4.1.92-cloud-windows-x64.zip
+Version: 4.1.92-cloud
+Size: 389045042 bytes
+SHA-256: A3B8C99E1C7903159A9DA5328F5E0F0DF3F63654B1A7FA66C554D5AC38BFE0BB

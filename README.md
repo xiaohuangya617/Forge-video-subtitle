@@ -4,6 +4,10 @@ Windows x64 免安装字幕生成与翻译工具。程序可以从本地视频�
 
 **[下载 Windows 完整版 ZIP（约 1.81 GiB）](https://github.com/xiaohuangya617/Forge-video-subtitle/releases/download/v4.1.92/smart-subtitle-factory-v4.1.92-windows-x64.zip)**
 
+**[下载 Windows 云端版 ZIP（约 0.36 GiB）](https://github.com/xiaohuangya617/Forge-video-subtitle/releases/download/v4.1.92/smart-subtitle-factory-v4.1.92-cloud-windows-x64.zip)**
+
+云端版不包含 Whisper Small 和 Hy-MT2 本地模型，仅适合使用阿里云 DashScope 识别与云端翻译接口的用户；需要离线处理或本机模型时，请下载完整版。
+
 ## 源码
 
 当前仓库同时提供源码快照，位于 [`src/factory`](src/factory)。其中包含 Electron 界面、字幕队列、识别与翻译流程、Python 识别脚本、规则文件和构建脚本。
@@ -135,3 +139,4 @@ MIT 许可只适用于作者原创代码，不适用于 Electron、Python、Whis
 ## 发布建议
 
 推荐作为 Windows x64 二进制 Release 发布：把完整运行目录压缩为一个 ZIP，Release 页面提供直接下载；仓库只放 README、版本记录、许可证声明和必要的校验信息，不把 9606 个运行文件逐个提交到 Git 仓库。完整包是否能放入单个 GitHub Release 资产，需要先实际压缩并确认压缩后大小；若超过平台限制，应改用分卷包或外部对象存储，并在 README 写清合并和校验步骤。
+
